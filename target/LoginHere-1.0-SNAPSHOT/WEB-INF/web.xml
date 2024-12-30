@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="6.0" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd">
+    <context-param>
+        <description>url of database</description>
+        <param-name>url</param-name>
+        <param-value>jdbc:mysql://127.0.0.1:3306/mydb1</param-value>
+    </context-param>
+    <context-param>
+        <description>username of datbase</description>
+        <param-name>userName</param-name>
+        <param-value>root</param-value>
+    </context-param>
+    <context-param>
+        <description>password of database</description>
+        <param-name>password</param-name>
+        <param-value> </param-value>
+    </context-param>
+    <context-param>
+        <description>Email Id </description>
+        <param-name>email</param-name>
+        <param-value>meetdalwadi71@gmail.com</param-value>
+    </context-param>
+    <context-param>
+        <description>password of mail</description>
+        <param-name>mpassword</param-name>
+        <param-value>fspvncqdylgusukx</param-value>
+    </context-param>
+    <listener>
+        <description>ServletContextListener, HttpSessionListener</description>
+        <listener-class>com.mycompany.loginhere.listener.DataBaseListener</listener-class>
+    </listener>
+    <servlet>
+        <servlet-name>SignInServlet</servlet-name>
+        <servlet-class>com.mycompany.loginhere.servlet.SignInServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SingUpServlet</servlet-name>
+        <servlet-class>com.mycompany.loginhere.servlet.SingUpServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SignInServlet</servlet-name>
+        <url-pattern>/M.D</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SingUpServlet</servlet-name>
+        <url-pattern>/D.M</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>First.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>

@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #15afd2, #2121a4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.login-box {
+    background: linear-gradient(to bottom, #00c6ff, #0072ff);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-box h2 {
+    margin: 0 0 20px;
+    font-size: 24px;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.textbox {
+    margin-bottom: 20px;
+}
+
+.textbox label {
+    display: block;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.textbox input[type="text"],
+.textbox input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+}
+.textbox.remember-me {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 20px;
+}
+
+.textbox.remember-me label {
+    margin-right: 10px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.textbox.remember-me input[type="checkbox"] {
+    transform: scale(1.2);
+    margin: 0;
+}
+
+
+.textbox input[type="checkbox"] {
+    transform: scale(1.2);
+    margin-left: 0; /* Align left for consistency */
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #00c6ff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.buttons button:hover {
+    background: #0072ff;
+}
+
+.note {
+    margin-top: 10px;
+    font-size: 14px;
+    color: white;
+}
+
+.error {
+    color: red;
+    margin-top: 20px;
+}
+
+.admin-link {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.admin-link button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #00c6ff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.admin-link button:hover {
+    background: #0072ff;
+}

@@ -1,0 +1,81 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    font-family: Arial, sans-serif;
+}
+
+#side{
+    display: flex;
+    color: white;
+
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signup-box {
+    background: #1e90ff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.signup-box h2 {
+   
+    color: white;
+}
+
+.signup-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-box label {
+    margin: 10px 0 5px;
+    color: white;
+}
+
+.signup-box input[type="text"],
+.signup-box input[type="password"],
+.signup-box input[type="email"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.signup-box .checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.signup-box .checkbox input {
+    margin-right: 10px;
+}
+
+.signup-box button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #00c6ff;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.signup-box button:hover {
+    background: #0072ff;
+}

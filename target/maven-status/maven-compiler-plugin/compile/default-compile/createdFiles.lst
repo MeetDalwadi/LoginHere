@@ -1,0 +1,10 @@
+com\mycompany\loginhere\servlet\SignInServlet.class
+com\mycompany\loginhere\listener\DataBaseListener.class
+com\mycompany\loginhere\JakartaRestConfiguration.class
+com\mycompany\loginhere\modal\Mail$1.class
+com\mycompany\loginhere\modal\TakeData.class
+com\mycompany\loginhere\resources\JakartaEE10Resource.class
+com\mycompany\loginhere\servlet\LogoutServlet.class
+com\mycompany\loginhere\modal\Mail.class
+com\mycompany\loginhere\servlet\SingUpServlet.class
+com\mycompany\loginhere\modal\GiveData.class
