@@ -10,6 +10,9 @@ A secure Java web application built with Jakarta EE that implements user authent
 - Database-backed token storage and verification
 - Secure random token generation
 - SQL injection prevention using prepared statements
+- Real-time active user tracking
+- Admin dashboard with total active users count
+- User session management
 
 ## Technologies Used
 
